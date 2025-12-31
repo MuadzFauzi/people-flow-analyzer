@@ -1,0 +1,7 @@
+video_path: "assets/video_sample_5.mp4"
+model_path: "yolov8n.pt"
+preprocessing:
+  blur_kernel: 5
+counting:
+  exit_threshold: 2.0  # Detik toleransi hilang
+  border_margin: 50    # (Pixel) Jarak dari tepi untuk dianggap masuk sah

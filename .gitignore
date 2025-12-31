@@ -1,0 +1,28 @@
+# Abaikan folder environment (SANGAT PENTING)
+uasviskom/
+venv/
+env/
+
+# Abaikan file cache Python (Sampah sistem)
+__pycache__/
+*.pyc
+
+# Abaikan video aset (Agar upload cepat & tidak kena limit 100MB)
+assets/*.mp4
+assets/*.avi
+assets/*.mov
+
+# Abaikan folder output data
+data/
+
+# Abaikan file sistem
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# AI Models (Akan auto-download by script)
+*.pt
+*.onnx
+models/
